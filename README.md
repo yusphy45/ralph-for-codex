@@ -60,7 +60,9 @@ cp -r skills/prd ~/.codex/skills/
 cp -r skills/ralph ~/.codex/skills/
 ```
 
-### Option 3: Use as Claude Code Marketplace
+### Option 3: Use as Claude Code Marketplace (Claude Code only)
+
+Codex does not use the Claude Code marketplace. For Codex, copy the skills into `~/.codex/skills/` using Option 2 and run Ralph with `--tool codex`.
 
 Add the Ralph marketplace to Claude Code:
 
